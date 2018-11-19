@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Andy - 优雅的和代码沟通</title>
+        <title>{{ config('app.name') }} - 优雅的和代码沟通</title>
 
         <link rel="stylesheet" type="text/css" href="/css/app.css">
 
