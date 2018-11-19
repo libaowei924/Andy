@@ -7,8 +7,6 @@
 
         <title>Laravel</title>
 
-        <link rel="stylesheet" type="text/css" href="/css/app.css">
-
         <!-- Styles -->
         <style>
             html, body {
@@ -95,12 +93,5 @@
             </div>
         </div>
 
-        <div class="ui message">
-          <i class="close icon"></i>
-          <div class="header">欢迎回来！ </div>
-          <p>如果你觉得厌烦，这个特别的通知可以关闭。</p>
-        </div>
-
-        <script type="text/javascript" src="/js/app.js"></script>
     </body>
 </html>
