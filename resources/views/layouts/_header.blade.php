@@ -6,7 +6,7 @@
        </div>
     </div>
     <a class="item" href="{{ route('home') }}"><i class="home icon"></i> Home </a>
-    <a class="item"><i class="block layout icon"></i> Topics </a>
-    <a class="item"><i class="smile icon"></i> Friends </a>
-    <a class="item"><i class="calendar icon"></i> History </a>
+    <a class="item"><i class="laravel icon"></i> Laravel </a>
+    <a class="item"><i class="linux icon"></i> Linux </a>
+    <a class="item"><i class="php icon"></i> PHP </a>
   </div>
