@@ -1,6 +1,6 @@
 <div class="ui bottom attached pushable">
   <div class="ui visible left vertical sidebar menu">
-    <div class="ui two column centered grid">
+    <div class="ui two column centered grid" id="tx">
        <div class="column centered">
          <img class="ui tiny circular image tx" src="/images/tx.png">
        </div>
