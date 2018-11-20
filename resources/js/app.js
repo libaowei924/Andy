@@ -8,12 +8,3 @@
 require('./bootstrap');
 //semantic
 require('../semantic/semantic.min.js');
-
-$('.message .close')
-  .on('click', function() {
-    $(this)
-      .closest('.message')
-      .transition('fade')
-    ;
-  })
-;
