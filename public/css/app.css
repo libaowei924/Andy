@@ -382,6 +382,10 @@
 }
 
 .ui .bl_ioc {
-  margin: 0px 0px 15px 16px;
+  margin: 0px 0px 15px 19px;
+}
+
+.ui .bl_ioc .icon {
+  margin-right: 0px;
 }
 
