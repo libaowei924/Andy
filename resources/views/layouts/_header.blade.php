@@ -1,4 +1,4 @@
-<div class="ui bottom attached pushable">
+<div class="ui bottom attached">
   <div class="ui visible left vertical sidebar menu">
     <div class="ui two column centered grid" id="tx">
        <div class="column centered">
