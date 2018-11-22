@@ -5,7 +5,7 @@
     <div class="ui divided items">
         <div class="item">
             <div class="image">
-              <img src="/images/wireframe/image.png">
+              <img src="https://ss.csdn.net/p?http://mmbiz.qpic.cn/mmbiz_png/1hReHaqafafs434nZR8TOWXOqC3QKibXsd6Y1hEsXWwOEe67xhy4clBuVlEdibJ5CQGTn4J4DdJC6gjL8kDPT5eA/640?wx_fmt=png&wxfrom=5&wx_lazy=1">
             </div>
             <div class="content">
               <a class="header">12 Years a Slave</a>
