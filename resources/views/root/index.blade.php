@@ -3,25 +3,29 @@
 @section('content')
   <div class="pusher">
     <div class="ui divided items">
-        @foreach($articles as $article)
-            <div class="item">
-                <div class="image">
-                  <img src="{{ $article->image }}">
+        @if(count($articles))
+            @foreach($articles as $article)
+                <div class="item">
+                    <div class="image">
+                      <img src="{{ $article->image }}">
+                    </div>
+                    <div class="content">
+                      <a class="header">{{ $article->name }}</a>
+                      <div class="meta">
+                        <span class="cinema">{{ $article->describe }}</span>
+                      </div>
+                      <div class="description">
+                        <p></p>
+                      </div>
+                      <div class="extra">
+                        <div class="ui label">{{ $article->article_type->name }}</div>
+                      </div>
+                    </div>
                 </div>
-                <div class="content">
-                  <a class="header">{{ $article->name }}</a>
-                  <div class="meta">
-                    <span class="cinema">{{ $article->describe }}</span>
-                  </div>
-                  <div class="description">
-                    <p></p>
-                  </div>
-                  <div class="extra">
-                    <div class="ui label">其他</div>
-                  </div>
-                </div>
-            </div>
-        @endforeach
+            @endforeach
+        @else
+            <h3>暂时还没有任何内容哦～</h3>
+        @endif
     </div>
   </div>
 @stop

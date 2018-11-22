@@ -10,7 +10,7 @@ class HomeController extends Controller
     //
     public function index()
     {
-        $articles = Article::Limit(10)->orderBy('top','desc')->get();
+        $articles = Article::with('article_type')->Limit(10)->orderBy('top','desc')->get();
 
         return view('root.index',compact('articles'));
     }
