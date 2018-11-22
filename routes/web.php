@@ -10,7 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('root.index');
-})->name('home');
+//首页
+Route::get('/','HomeController@index')->name('home');
