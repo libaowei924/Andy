@@ -11,7 +11,7 @@
                 <div class="content">
                   <a class="header">{{ $article->name }}</a>
                   <div class="meta">
-                    <span class="cinema">{{ $article->content }}</span>
+                    <span class="cinema">{{ $article->describe }}</span>
                   </div>
                   <div class="description">
                     <p></p>
