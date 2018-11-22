@@ -1,14 +1,19 @@
 //semantic
 @import '../semantic/semantic.min.css';
-
-//头像控制
-#tx {
-    margin-right: 0rem;margin-left: 1rem;
-}
-.tx {
-    margin: 10px 0px;
-}
-
-.nc {
-    padding: 22px;
+.ui {
+    //头像控制
+    #tx {
+        margin-right: 0rem;margin-left: 1rem;
+    }
+    .tx {
+        margin: 10px 0px;
+    }
+    //昵称
+    .nc {
+        padding: 22px;
+    }
+    //边栏图标
+    .bl_ioc {
+        margin: 0px 0px 15px 16px;
+    }
 }

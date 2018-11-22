@@ -7,6 +7,18 @@
        </div>
     </div>
     <div class="ui horizontal divider">OR</div>
+    <button class="ui circular github icon button bl_ioc">
+        <a href="https://github.com/libaowei924/Andy" target="_black"><i class="github icon"></i></a>
+    </button>
+    <button class="ui circular github icon button bl_ioc">
+        空
+    </button>
+    <button class="ui circular github icon button bl_ioc">
+        空
+    </button>
+    <button class="ui circular github icon button bl_ioc">
+        空
+    </button>
     <a class="item" href="{{ route('home') }}"><i class="home icon"></i> Home </a>
     <a class="item"><i class="laravel icon"></i> Laravel </a>
     <a class="item"><i class="linux icon"></i> Linux </a>
