@@ -15,6 +15,8 @@ class CreateArticletypesTable extends Migration
     {
         Schema::create('articletypes', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('type');
+            $table->string('icon');
             $table->string('name');
             $table->timestamps();
         });

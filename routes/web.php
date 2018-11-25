@@ -12,3 +12,5 @@
 */
 //首页
 Route::get('/','HomeController@index')->name('home');
+//类别下的文章
+Route::get('type/{type}','ArticletypeController@index')->name('type');

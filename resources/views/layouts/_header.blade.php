@@ -20,7 +20,7 @@
         空
     </button>
     <a class="item" href="{{ route('home') }}"><i class="home icon"></i> Home </a>
-    <a class="item"><i class="laravel icon"></i> Laravel </a>
-    <a class="item"><i class="linux icon"></i> Linux </a>
-    <a class="item"><i class="php icon"></i> PHP </a>
+    @foreach($article_type as $type)
+        <a class="item" href="{{ route('type',$type->type) }}"><i class="{{ $type->icon }} icon"></i>{{ $type->name }}</a>
+    @endforeach
   </div>
