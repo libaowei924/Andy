@@ -2,7 +2,7 @@
   <div class="ui visible left vertical sidebar menu">
     <div class="ui two column centered grid" id="tx">
        <div class="column centered">
-         <img class="ui tiny circular image tx" src="/images/tx.png">
+         <img class="ui tiny circular image tx" src="/images/tx.png" alt="touxiang">
          <b class="nc">Andy</b>
        </div>
     </div>
