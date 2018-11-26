@@ -10,7 +10,7 @@
                       <img src="{{ $article->image }}">
                     </div>
                     <div class="content">
-                      <a class="header">{{ $article->name }}</a>
+                      <a class="header" href="{{ route('article',$article->id) }}">{{ $article->name }}</a>
                       <div class="meta">
                         <span class="cinema">{{ $article->describe }}</span>
                       </div>

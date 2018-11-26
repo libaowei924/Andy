@@ -14,3 +14,5 @@
 Route::get('/','HomeController@index')->name('home');
 //类别下的文章
 Route::get('type/{type}','ArticletypeController@index')->name('type');
+//文章内容
+Route::get('article/{article}','ArticleController@show')->name('article');
