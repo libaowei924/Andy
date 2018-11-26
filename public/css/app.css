@@ -389,3 +389,13 @@
   margin-right: 0px;
 }
 
+#article {
+  padding-right: 272px;
+}
+
+#article .like {
+  position: absolute;
+  right: 272px;
+  top: 15px;
+}
+
