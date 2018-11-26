@@ -3,7 +3,7 @@
 @section('content')
 <div class="pusher">
   <div class="ui green segment">
-    <p>{{ $article->name }}</p>
+    <h1>{{ $article->name }}</h1>
     <div class="ui divider"></div>
     @php
         $parsedown = new Parsedown;
