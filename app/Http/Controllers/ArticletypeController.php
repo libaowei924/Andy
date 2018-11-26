@@ -11,6 +11,8 @@ class ArticletypeController extends Controller
     //
     public function index(Articletype $type)
     {
-        $article = Article::where('class',$type->id)->get();
+        $articles = Article::where('class',$type->id)->orderBy('created_at','desc')->get();
+
+        return view('articles.articletype',compact('articles','type'));
     }
 }
