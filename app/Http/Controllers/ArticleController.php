@@ -11,4 +11,10 @@ class ArticleController extends Controller
     {
         return view('articles.show',compact('article'));
     }
+
+    public function praise(Request $request)
+    {
+        Article::where('id',$request->id)->increment('like');
+        return redirect()->route('article',['article' => $request->id]);
+    }
 }

@@ -16,3 +16,5 @@ Route::get('/','HomeController@index')->name('home');
 Route::get('type/{type}','ArticletypeController@index')->name('type');
 //文章内容
 Route::get('article/{article}','ArticleController@show')->name('article');
+//文章点赞
+Route::put('praise','ArticleController@praise')->name('praise');
