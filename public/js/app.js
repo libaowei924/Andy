@@ -768,9 +768,12 @@ __webpack_require__(9);
 //semantic
 __webpack_require__(34);
 
+//喜欢加载
 $('#like').click(function () {
   $('#like').addClass('loading');
 });
+
+$('select.dropdown').dropdown();
 
 /***/ }),
 /* 9 */

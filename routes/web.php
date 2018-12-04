@@ -18,3 +18,7 @@ Route::get('type/{type}','ArticletypeController@index')->name('type');
 Route::get('article/{article}','ArticleController@show')->name('article');
 //文章点赞
 Route::put('praise','ArticleController@praise')->name('praise');
+//创建文章
+Route::get('create/article','ArticleController@create_show')->name('create.article');
+//处理请求
+Route::post('create/article','ArticleController@create')->name('create.article');

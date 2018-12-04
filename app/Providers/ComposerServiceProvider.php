@@ -15,7 +15,7 @@ class ComposerServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        view::composer('layouts._header',function($view){
+        view::composer(['layouts._header'],function($view){
             $type = \App\Articletype::all();
             $view->with('article_type',$type);
         });

@@ -13,3 +13,7 @@ require('../semantic/semantic.min.js');
 $('#like').click(function(){
     $('#like').addClass('loading');
 });
+
+$('select.dropdown')
+  .dropdown()
+;
