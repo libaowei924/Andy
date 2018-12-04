@@ -8,3 +8,8 @@
 require('./bootstrap');
 //semantic
 require('../semantic/semantic.min.js');
+
+//喜欢加载
+$('#like').click(function(){
+    $('#like').addClass('loading');
+});

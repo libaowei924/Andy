@@ -768,6 +768,10 @@ __webpack_require__(9);
 //semantic
 __webpack_require__(34);
 
+$('#like').click(function () {
+  $('#like').addClass('loading');
+});
+
 /***/ }),
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {

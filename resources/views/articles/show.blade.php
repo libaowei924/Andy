@@ -9,7 +9,7 @@
         @csrf
         <div class="ui labeled button like" tabindex="0">
             <input type="hidden" name="id" value="{{ $article->id }}">
-            <button class="ui button"><i class="heart icon"></i> 喜欢 </button>
+            <button class="ui button" id="like"><i class="heart icon"></i> 喜欢 </button>
             <a class="ui basic left pointing label">
                 {{ $article->like }}
             </a>
