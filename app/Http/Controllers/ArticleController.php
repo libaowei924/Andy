@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Article;
 use App\Pro;
 use Hash;
+use Image;
 
 class ArticleController extends Controller
 {
@@ -31,13 +32,18 @@ class ArticleController extends Controller
         $boole = Hash::check($request->pw,$pro->pw);
         if($boole)
         {
+            $img = Image::make($request->image);
+            $img_name = $img->filename.'.png';
+            $img->resize(175,82);
+            $img->save(base_path().'/public/images/article/'.$img_name);
             Article::create([
                 'name' => $request->name,
                 'describe' => $request->describe,
                 'content' => $request->content,
-                'image' => $request->image,
+                'image' => config('app.url').'/images/article/'.$img_name,
                 'class' => $request->class,
             ]);
+            return redirect()->route('home');
         }
         else
         {
