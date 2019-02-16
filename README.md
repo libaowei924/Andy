@@ -1,5 +1,5 @@
 # Andy
-
+[![Build Status](https://travis-ci.com/libaowei924/Andy.svg?branch=master)](https://travis-ci.com/libaowei924/Andy)
 ### V1.0.0
 
 ----主要就是能够查看文章！
