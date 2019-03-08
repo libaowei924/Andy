@@ -26,6 +26,10 @@
             <select class="ui dropdown" name="class">
               <option value="">选择合适的类型</option>
               <option value="1">Laravel</option>
+              <option value="2">PHP</option>
+              <option value="3">Node</option>
+              <option value="4">Linux</option>
+              <option value="5">React</option>
             </select>
         </div>
 
